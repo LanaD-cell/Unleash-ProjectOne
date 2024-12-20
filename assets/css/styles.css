@@ -1,7 +1,12 @@
-
 /* Google fonts import */
-<style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -17,7 +22,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-
+    font-family: "Montserrat", serif;
 }
 
 /* Header */
