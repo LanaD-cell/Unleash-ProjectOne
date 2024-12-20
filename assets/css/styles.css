@@ -14,12 +14,17 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: lightslategray;    
+    color: lightslategray;
 }
 
 /* Header */
 header {
     background-color: lightcoral;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 1px 4px lightslategray;    
 }
 
 /* Main content */
