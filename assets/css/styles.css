@@ -41,7 +41,7 @@ h1 {
     font-family: "Roboto", sans-serif;
     text-transform: lowercase;
     letter-spacing: 2px;
-    color: lightslategray;
+    color: #3a3a3a;
 }
 
 #menu {
@@ -97,4 +97,28 @@ main {
 /* Footer */
 footer {
     background-color: teal;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and  (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    
+    }
+
+    #menu li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
