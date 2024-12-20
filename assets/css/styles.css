@@ -8,3 +8,28 @@
     font-style: normal;
 }
 
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: lightslategray;    
+}
+
+/* Header */
+header {
+    background-color: lightcoral;
+}
+
+/* Main content */
+main {
+    background-color: #ffffff;
+    /* Make main element take up any surplus space to push the footer down */
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: teal;
+}
