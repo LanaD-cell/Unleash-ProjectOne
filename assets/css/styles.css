@@ -1,10 +1,18 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .montserrat-<uniquifier> {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -15,6 +23,8 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: lightslategray;
+    font-family: "Montserrat", serif;
+
 }
 
 /* Header */
@@ -24,7 +34,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px 4px lightslategray;    
+    box-shadow: 0 1px 4px lightslategray;
 }
 
 header a {
@@ -32,11 +42,17 @@ header a {
     color: inherit;
 }
 
-h1 { 
+h1 {
     font-family: "Montserrat", serif;
     text-transform: lowercase;
     letter-spacing: 2px;
     color: #ffffff;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
 
 /* Main content */
