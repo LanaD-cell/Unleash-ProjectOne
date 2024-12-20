@@ -8,6 +8,18 @@
     font-style: normal;
 }
 
+.header img {
+    float: left;
+    width: 80%;
+    height: 100px;
+}
+
+. header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -36,8 +48,18 @@ header {
 
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: "Montserrat", serif;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: #252525;
+
+
 }
 
 /* Main */
