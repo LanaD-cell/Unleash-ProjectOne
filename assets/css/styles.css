@@ -41,7 +41,7 @@ h1 {
     font-family: "Roboto", sans-serif;
     text-transform: lowercase;
     letter-spacing: 2px;
-    color: #3a3a3a;
+    color: lightslategray;
 }
 
 #menu {
@@ -87,9 +87,11 @@ nav {
 
 /* Main content */
 main {
-    background-color: #3a3a3a;
+    background-color: lightslategray;
+    color: white;
     /* Make main element take up any surplus space to push the footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
