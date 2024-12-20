@@ -27,6 +27,18 @@ header {
     box-shadow: 0 1px 4px lightslategray;    
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 { 
+    font-family: "Montserrat", serif;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
 /* Main content */
 main {
     background-color: #ffffff;
