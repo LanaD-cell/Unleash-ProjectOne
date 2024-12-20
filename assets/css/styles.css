@@ -1,19 +1,11 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-.montserrat-<uniquifier> {
-    font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
 }
 
 /* General styles */
@@ -22,8 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: lightslategray;
-    font-family: "Montserrat", serif;
+    color: #3a3a3a;
+    font-family: "Lato", sans-serif;
 
 }
 
@@ -43,10 +35,10 @@ header a {
 }
 
 h1 {
-    font-family: "Montserrat", serif;
+    font-family: "Lato", sans-serif;
     text-transform: lowercase;
     letter-spacing: 2px;
-    color: #ffffff;
+    color: #3a3a3a;
 }
 
 #menu {
@@ -55,9 +47,18 @@ h1 {
     list-style-type: none;
 }
 
+#menu>li {
+    margin-bottom: 1em;
+
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* Main content */
 main {
-    background-color: #ffffff;
+    background-color: #3a3a3a;
     /* Make main element take up any surplus space to push the footer down */
     flex: 1 0 auto;
 }
